@@ -146,6 +146,7 @@ main {
   padding: 10px 0px;
   margin-top: 20px;
   border-radius: 6px;
+  cursor: pointer;
 }
 
 #add-to-shopping-list,
