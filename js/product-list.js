@@ -288,7 +288,9 @@ const getAllBrand = (categoryName, PRODUCT_DATA) => {
 
 const setCartBadgeCount = () => {
   const cartItems = JSON.parse(localStorage.getItem("cart") || []);
-  $(".cart-badge").text(cartItems.length);
+  if (cartItems) {
+    $(".cart-badge").text(cartItems.length);
+  }
 };
 
 $(async () => {
