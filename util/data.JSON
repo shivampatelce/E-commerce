@@ -1,0 +1,649 @@
+[
+  {
+    "id": 1,
+    "title": "Laptops",
+    "image": "../assets/images/Laptops.jpeg",
+    "products": [
+      {
+        "title": "Acer Aspire 3",
+        "description": "This product is inspected, tested, and refurbished, as necessary to be fully functional according to Amazon Renewed standards.",
+        "isInStock": true,
+        "img": "../assets/images/laptop/Acer Aspire 3.webp",
+        "discount": 100,
+        "price": 1000,
+        "brand": "Acer",
+        "rating": 4,
+        "features": [
+          {
+            "display": "16inch touchscreen",
+            "battery": "3000 MAH",
+            "GPU": "Integrated",
+            "CPU": "AMD ryzen",
+            "RAM": "8GB",
+            "storage": "1TB",
+            "price": 1000
+          }
+        ],
+        "tags": ["laptop", "acer", "3", "Aspire"]
+      },
+      {
+        "title": "Dell Laptop 15.6 Full HD Display | AMD Ryzen 7 5700U CPU | 16GB DDR4 | 1TB SSD | Windows 11 Home (1 Yr Manufacturer Warranty)",
+        "description": "This product is inspected, tested, and refurbished, as necessary to be fully functional according to Amazon Renewed standards.",
+        "isInStock": false,
+        "img": "../assets/images/laptop/Dell Laptop 15.6 Full HD Display .webp",
+        "discount": 50,
+        "price": 700,
+        "brand": "Dell",
+        "rating": 4,
+        "features": [
+          {
+            "price": 700,
+            "display": "15.6inch",
+            "battery": "4000 MAH",
+            "GPU": "Integrated",
+            "CPU": "AMD ryzen 7",
+            "RAM": "4GB",
+            "storage": "512GB"
+          }
+        ],
+        "tags": ["laptop", "dell", "15.6", "Full HD"]
+      },
+      {
+        "title": "Lenovo Laptop 15.6 Full HD Display | AMD Ryzen 7 5700U CPU | 16GB DDR4 | 1TB SSD | Windows 11 Home (1 Yr Manufacturer Warranty)",
+        "description": "This product is inspected, tested, and refurbished, as necessary to be fully functional according to Amazon Renewed standards.",
+        "isInStock": true,
+        "img": "../assets/images/laptop/51NuxGz8sQL._AC_UL960_FMwebp_QL65_.webp",
+        "discount": 30,
+        "price": 800,
+        "brand": "Lenovo",
+        "rating": 3,
+        "features": [
+          {
+            "price": 800,
+            "display": "15.6inch",
+            "battery": "2000 MAH",
+            "GPU": "GTX 4050",
+            "CPU": "Intel i5",
+            "RAM": "16GB",
+            "storage": "1TB"
+          }
+        ],
+        "tags": ["laptop", "lenovo", "15.6", "Full HD"]
+      },
+      {
+        "title": "Mac book pro | AMD Ryzen 7 5700U CPU | 16GB DDR4 | 1TB SSD | Windows 11 Home (1 Yr Manufacturer Warranty)",
+        "description": "This product is inspected, tested, and refurbished, as necessary to be fully functional according to Amazon Renewed standards.",
+        "isInStock": true,
+        "img": "../assets/images/laptop/61tGIRjhumL._AC_UL960_FMwebp_QL65_.webp",
+        "discount": 200,
+        "price": 900,
+        "brand": "Apple",
+        "rating": 4,
+        "features": [
+          {
+            "display": "16inch",
+            "battery": "3000 MAH",
+            "GPU": "Integrated",
+            "CPU": "apple bionic",
+            "RAM": "8GB",
+            "storage": "1TB",
+            "price": 900
+          }
+        ],
+        "tags": ["laptop", "mac book pro", "apple", "M1 Pro"]
+      },
+      {
+        "title": "Acer Chromebook 14 | Intel Celeron | 4GB RAM | 64GB eMMC | Chrome OS",
+        "description": "A lightweight and efficient Chromebook with long battery life, perfect for students and everyday tasks.",
+        "img": "../assets/images/laptop/713cruyVhoL._AC_UL960_FMwebp_QL65_.webp",
+        "discount": 50,
+        "isInStock": true,
+        "price": 750,
+        "brand": "Acer",
+        "rating": 2,
+        "features": [
+          {
+            "display": "14inch",
+            "battery": "6000 MAH",
+            "GPU": "Intel Integrated",
+            "CPU": "Intel Celeron",
+            "RAM": "4GB",
+            "storage": "64GB eMMC",
+            "price": 750
+          }
+        ],
+        "tags": ["laptop", "acer", "chromebook", "14inch"]
+      },
+      {
+        "title": "HP Pavilion 15.6 | Intel Core i7 | 16GB RAM | 512GB SSD | Windows 11 Home",
+        "description": "HP Pavilion offers the perfect blend of performance, reliability, and design for your everyday computing needs.",
+        "img": "../assets/images/laptop/hp_pavilion.webp",
+        "discount": 120,
+        "isInStock": true,
+        "price": 750,
+        "brand": "HP",
+        "rating": 2,
+        "features": [
+          {
+            "display": "15.6inch Full HD",
+            "battery": "4500 MAH",
+            "GPU": "NVIDIA GTX 1650",
+            "CPU": "Intel Core i7",
+            "RAM": "16GB",
+            "storage": "512GB SSD",
+            "price": 750
+          }
+        ],
+        "tags": ["laptop", "hp", "Pavilion", "GTX 1650"]
+      },
+      {
+        "title": "Lenovo Laptop 15.6 Full HD Display | Think pad 5700U CPU | 16GB DDR4 | 1TB SSD | Windows 11 Home (1 Yr Manufacturer Warranty)",
+        "description": "This product is inspected, tested, and refurbished, as necessary to be fully functional according to Amazon Renewed standards.",
+        "isInStock": true,
+        "img": "../assets/images/laptop/5119Kog5+qL._AC_UL960_FMwebp_QL65_.webp",
+        "discount": 300,
+        "price": 800,
+        "brand": "Lenovo",
+        "rating": 4,
+        "features": [
+          {
+            "display": "15.6inch Full HD",
+            "battery": "5000 MAH",
+            "GPU": "Integrated",
+            "CPU": "Intel i5",
+            "RAM": "16GB",
+            "storage": "1TB",
+            "price": 800
+          }
+        ],
+        "tags": ["laptop", "lenovo", "think pad"]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Phones",
+    "image": "../assets/images/Phonecategory.jpeg",
+    "products": [
+      {
+        "title": "Apple iPhone 8 64 GB, Space Grey",
+        "description": "Super Retina XDR display with ProMotion, A15 Bionic chip, and advanced camera system with LiDAR scanner.",
+        "img": "../assets/images/smartphones/Apple iPhone 8 64 GB.webp",
+        "discount": 100,
+        "isInStock": true,
+        "price": 1099,
+        "brand": "Apple",
+        "rating": 4,
+        "features": [
+          {
+            "display": "6.7inch Super Retina XDR",
+            "battery": "4352 MAH",
+            "camera": "12MP Triple Camera",
+            "CPU": "A15 Bionic",
+            "RAM": "6GB",
+            "storage": "256GB",
+            "price": 1099
+          }
+        ],
+        "tags": ["smartphone", "apple", "iphone", "A15 Bionic"]
+      },
+      {
+        "title": "Apple iPhone 14 Pro, 256GB, Silver",
+        "description": "6.8inch Dynamic AMOLED 2X display with 120Hz refresh rate, Exynos 2100, and quad-camera setup with 108MP sensor.",
+        "img": "../assets/images/smartphones/Apple iPhone 14 Pro, 256GB, Silver.webp",
+        "discount": 150,
+        "isInStock": true,
+        "price": 1199,
+        "brand": "Apple",
+        "rating": 4,
+        "features": [
+          {
+            "display": "6.8inch Dynamic AMOLED 2X",
+            "battery": "5000 MAH",
+            "camera": "108MP Quad Camera",
+            "CPU": "Exynos 2100",
+            "RAM": "12GB",
+            "storage": "128GB",
+            "price": 1199
+          }
+        ],
+        "tags": ["smartphone", "apple"]
+      },
+      {
+        "title": "Apple iPhone Xs Fully Unlocked 256GB Gold",
+        "description": "Apple's flagship phone with a 6.7inch LTPO OLED display, Tensor chip, and advanced AI-powered camera features.",
+        "img": "../assets/images/smartphones/Apple iPhone Xs Fully Unlocked 256GB Gold.webp",
+        "discount": 100,
+        "isInStock": true,
+        "price": 899,
+        "brand": "Apple",
+        "rating": 4,
+        "features": [
+          {
+            "display": "6.7inch LTPO OLED",
+            "battery": "5000 MAH",
+            "camera": "50MP Triple Camera",
+            "CPU": "Google Tensor",
+            "RAM": "12GB",
+            "storage": "128GB",
+            "price": 899
+          }
+        ],
+        "tags": ["smartphone", "apple"]
+      },
+      {
+        "title": "Pixel 8a - 128 GB",
+        "description": "Flagship performance with Snapdragon 888, 6.7inch Fluid AMOLED display, and Hasselblad camera for mobile.",
+        "img": "../assets/images/smartphones/Pixel 8a - 128 GB.webp",
+        "discount": 120,
+        "isInStock": true,
+        "price": 969,
+        "brand": "Google",
+        "rating": 4,
+        "features": [
+          {
+            "display": "6.7inch Fluid AMOLED",
+            "battery": "4500 MAH",
+            "camera": "48MP Quad Camera",
+            "CPU": "Snapdragon 888",
+            "RAM": "12GB",
+            "storage": "256GB",
+            "price": 969
+          }
+        ],
+        "tags": ["smartphone", "Google"]
+      },
+      {
+        "title": "Galaxy Z Fold6, AI Smartphone",
+        "description": "6.5inch 21:9 CinemaWide OLED display, Snapdragon 888, triple camera with ZEISS optics, and high-res audio support.",
+        "img": "../assets/images/smartphones/Galaxy Z Fold6, AI Smartphone, Android.webp",
+        "discount": 100,
+        "isInStock": true,
+        "price": 1299,
+        "brand": "Samsung",
+        "rating": 4,
+        "features": [
+          {
+            "display": "6.5inch CinemaWide OLED",
+            "battery": "4500 MAH",
+            "camera": "12MP Triple Camera",
+            "CPU": "Snapdragon 888",
+            "RAM": "12GB",
+            "storage": "256GB",
+            "price": 1299
+          }
+        ],
+        "tags": ["smartphone", "Samsung"]
+      },
+      {
+        "title": "Samsung Galaxy S20 FE (5G)",
+        "description": "6.5inch 21:9 CinemaWide OLED display, Snapdragon 888, triple camera with ZEISS optics, and high-res audio support.",
+        "img": "../assets/images/smartphones/Samsung Galaxy S20 FE (5G).webp",
+        "discount": 100,
+        "isInStock": true,
+        "price": 1299,
+        "brand": "Samsung",
+        "rating": 4,
+        "features": [
+          {
+            "display": "6.5inch CinemaWide OLED",
+            "battery": "4500 MAH",
+            "camera": "12MP Triple Camera",
+            "CPU": "Snapdragon 888",
+            "RAM": "12GB",
+            "storage": "256GB",
+            "price": 1299
+          }
+        ],
+        "tags": ["smartphone", "Samsung"]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Headphones",
+    "image": "../assets/images/Headphones.jpeg",
+    "products": [
+      {
+        "title": "Sony WH-1000XM4 | Wireless Noise Cancelling Headphones",
+        "description": "Industry-leading noise cancellation with Dual Noise Sensor technology. Long battery life with quick charging.",
+        "img": "../assets/images/headphones/sony_wh1000xm4.webp",
+        "discount": 50,
+        "isInStock": true,
+        "price": 350,
+        "brand": "Sony",
+        "rating": 4,
+        "features": [
+          {
+            "battery": "30 hours",
+            "noiseCancellation": "Yes",
+            "microphone": "Built-in",
+            "color": "Black",
+            "price": 350
+          }
+        ],
+        "tags": ["headphones", "sony", "wireless", "noise cancelling"]
+      },
+      {
+        "title": "Bose QuietComfort 35 II | Wireless Bluetooth Headphones",
+        "description": "Bose QuietComfort 35 II offers premium noise-cancelling technology, perfect for immersive sound experiences.",
+        "img": "../assets/images/headphones/bose_qc35_ii.webp",
+        "discount": 40,
+        "isInStock": true,
+        "price": 300,
+        "brand": "Bose",
+        "rating": 4,
+        "features": [
+          {
+            "battery": "20 hours",
+            "noiseCancellation": "Yes",
+            "microphone": "Built-in",
+            "color": "Silver",
+            "price": 300
+          }
+        ],
+        "tags": ["headphones", "bose", "wireless", "quietcomfort"]
+      },
+      {
+        "title": "Apple AirPods Pro | Wireless Earbuds with MagSafe Charging Case",
+        "description": "Active noise cancellation for immersive sound. Transparency mode for hearing and connecting with the world around you.",
+        "img": "../assets/images/headphones/apple_airpods_pro.webp",
+        "discount": 25,
+        "isInStock": true,
+        "price": 249,
+        "brand": "Apple",
+        "rating": 4,
+        "features": [
+          {
+            "battery": "4.5 hours per charge",
+            "noiseCancellation": "Yes",
+            "microphone": "Dual Beamforming",
+            "color": "White",
+            "price": 249
+          }
+        ],
+        "tags": ["headphones", "apple", "airpods", "wireless"]
+      },
+      {
+        "title": "JBL Tune 750BTNC | Wireless Over-Ear Headphones",
+        "description": "Powerful JBL Pure Bass sound with active noise cancelling. Comfortable fit with up to 15 hours of battery life.",
+        "img": "../assets/images/headphones/jbl_tune_750btnc.webp",
+        "discount": 20,
+        "isInStock": true,
+        "price": 130,
+        "brand": "JBL",
+        "rating": 4,
+        "features": [
+          {
+            "battery": "15 hours",
+            "noiseCancellation": "Yes",
+            "microphone": "Built-in",
+            "color": "Blue",
+            "price": 130
+          }
+        ],
+        "tags": ["headphones", "jbl", "wireless", "bass"]
+      },
+      {
+        "title": "Sennheiser HD 450BT | Wireless Over-Ear Headphones",
+        "description": "Great sound with deep dynamic bass and active noise cancellation. Up to 30 hours of battery life.",
+        "img": "../assets/images/headphones/sennheiser_hd_450bt.webp",
+        "discount": 35,
+        "isInStock": true,
+        "price": 200,
+        "brand": "Sennheiser",
+        "rating": 4,
+        "features": [
+          {
+            "battery": "30 hours",
+            "noiseCancellation": "Yes",
+            "microphone": "Built-in",
+            "color": "Black",
+            "price": 200
+          }
+        ],
+        "tags": ["headphones", "sennheiser", "wireless", "over-ear"]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Monitors",
+    "image": "../assets/images/Monitors.jpeg",
+    "products": [
+      {
+        "title": "Apple Watch Series 7 | 45mm | GPS",
+        "description": "The largest, most advanced Always-On Retina display. Breakthrough health innovations like sensors for blood oxygen and ECG.",
+        "img": "../assets/images/smartwatches/apple_watch_series_7.webp",
+        "discount": 50,
+        "isInStock": true,
+        "price": 399,
+        "brand": "Apple",
+        "rating": 4,
+        "features": [
+          {
+            "display": "1.9inch Retina",
+            "battery": "18 hours",
+            "sensors": "Blood Oxygen, ECG",
+            "connectivity": "GPS",
+            "price": 399
+          }
+        ],
+        "tags": ["smartwatch", "apple", "watch", "health"]
+      },
+      {
+        "title": "Samsung Galaxy Watch 4 | 44mm | LTE",
+        "description": "Sleek, lightweight design with Wear OS, body composition analysis, and advanced sleep tracking.",
+        "img": "../assets/images/smartwatches/samsung_galaxy_watch_4.webp",
+        "discount": 50,
+        "isInStock": true,
+        "price": 349,
+        "brand": "Samsung",
+        "rating": 4,
+        "features": [
+          {
+            "display": "1.4inch Super AMOLED",
+            "battery": "40 hours",
+            "sensors": "Body Composition, ECG",
+            "connectivity": "LTE",
+            "price": 349
+          }
+        ],
+        "tags": ["smartwatch", "samsung", "galaxy", "health"]
+      },
+      {
+        "title": "Garmin Forerunner 945 | GPS",
+        "description": "Premium GPS running/triathlon smartwatch with music, offering advanced performance metrics and maps.",
+        "img": "../assets/images/smartwatches/garmin_forerunner_945.webp",
+        "discount": 70,
+        "isInStock": true,
+        "price": 599,
+        "brand": "Garmin",
+        "rating": 4,
+        "features": [
+          {
+            "display": "1.2inch",
+            "battery": "14 days",
+            "sensors": "Heart Rate, Pulse Ox",
+            "connectivity": "GPS",
+            "price": 599
+          }
+        ],
+        "tags": ["smartwatch", "garmin", "forerunner", "fitness"]
+      },
+      {
+        "title": "Fitbit Versa 3 | Health & Fitness Smartwatch",
+        "description": "Get call, text, and app notifications, use Amazon Alexa Built-in, and track your fitness goals.",
+        "img": "../assets/images/smartwatches/fitbit_versa_3.webp",
+        "discount": 30,
+        "isInStock": true,
+        "price": 229,
+        "brand": "Google",
+        "rating": 4,
+        "features": [
+          {
+            "display": "1.58inch AMOLED",
+            "battery": "6+ days",
+            "sensors": "Heart Rate, SpO2",
+            "connectivity": "GPS, NFC",
+            "price": 229
+          }
+        ],
+        "tags": ["smartwatch", "fitbit", "versa", "health"]
+      },
+      {
+        "title": "Fossil Gen 6 | 44mm | Stainless Steel",
+        "description": "Powered by Wear OS, offering customizable watch faces, heart rate tracking, and rapid charging.",
+        "img": "../assets/images/smartwatches/fossil_gen_6.webp",
+        "discount": 40,
+        "isInStock": true,
+        "price": 299,
+        "brand": "Fossil",
+        "rating": 4,
+        "features": [
+          {
+            "display": "1.28inch AMOLED",
+            "battery": "24 hours",
+            "sensors": "Heart Rate, SpO2",
+            "connectivity": "Bluetooth, Wi-Fi",
+            "price": 299
+          }
+        ],
+        "tags": ["smartwatch", "fossil", "gen6", "fashion"]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Home Appliances",
+    "image": "../assets/images/Homeappliances.jpeg",
+    "products": [
+      {
+        "title": "Samsung 6.5 Kg Fully-Automatic Top Loading Washing Machine",
+        "description": "Enjoy efficient cleaning with a diamond drum that protects your clothes. Energy-efficient and easy to use.",
+        "isInStock": true,
+        "img": "../assets/images/home_appliances/samsung_washing_machine.webp",
+        "discount": 50,
+        "price": 400,
+        "brand": "Samsung",
+        "rating": 4,
+        "features": [
+          {
+            "quality": "Fully-Automatic",
+            "color": "Silver",
+            "price": 400
+          }
+        ],
+        "tags": ["home appliance", "washing machine", "samsung", "top loading"]
+      },
+      {
+        "title": "LG 260 L 3 Star Frost Free Double Door Refrigerator",
+        "description": "Energy-efficient double door refrigerator with Smart Inverter Compressor and Multi Air Flow Cooling.",
+        "isInStock": true,
+        "img": "../assets/images/home_appliances/lg_refrigerator.webp",
+        "discount": 100,
+        "price": 600,
+        "brand": "LG",
+        "rating": 4,
+        "features": [
+          {
+            "quality": "Frost Free",
+            "color": "Shiny Steel",
+            "price": 600
+          }
+        ],
+        "tags": ["home appliance", "refrigerator", "LG", "double door"]
+      },
+      {
+        "title": "IFB 30 L Convection Microwave Oven",
+        "description": "Cook, bake, and grill with ease using this versatile convection microwave with multiple cooking modes.",
+        "isInStock": true,
+        "img": "../assets/images/home_appliances/ifb_microwave_oven.webp",
+        "discount": 30,
+        "price": 200,
+        "brand": "IFB",
+        "rating": 4,
+        "features": [
+          {
+            "quality": "Convection",
+            "color": "Black",
+            "price": 200
+          }
+        ],
+        "tags": ["home appliance", "microwave oven", "IFB", "convection"]
+      },
+      {
+        "title": "Dyson V11 Absolute Pro Cord-Free Vacuum",
+        "description": "Powerful suction to deep clean your home. Advanced whole-machine filtration captures 99.99% of particles.",
+        "isInStock": true,
+        "img": "../assets/images/home_appliances/dyson_vacuum.webp",
+        "discount": 150,
+        "price": 800,
+        "brand": "Dyson",
+        "rating": 4,
+        "features": [
+          {
+            "quality": "Cord-Free",
+            "color": "Nickel/Blue",
+            "price": 800
+          }
+        ],
+        "tags": ["home appliance", "vacuum cleaner", "dyson", "cord-free"]
+      },
+      {
+        "title": "Panasonic 20L Solo Microwave Oven",
+        "description": "Compact solo microwave with reheat and defrost functions, perfect for small kitchens.",
+        "isInStock": true,
+        "img": "../assets/images/home_appliances/panasonic_microwave_oven.webp",
+        "discount": 20,
+        "price": 100,
+        "brand": "Panasonic",
+        "rating": 4,
+        "features": [
+          {
+            "quality": "Solo",
+            "color": "White",
+            "price": 100
+          }
+        ],
+        "tags": ["home appliance", "microwave oven", "Panasonic", "solo"]
+      },
+      {
+        "title": "Philips 1.8-Litre Electric Rice Cooker",
+        "description": "Cook rice quickly and efficiently with this electric rice cooker, featuring a keep-warm function.",
+        "isInStock": true,
+        "img": "../assets/images/home_appliances/philips_rice_cooker.webp",
+        "discount": 10,
+        "price": 50,
+        "brand": "Philips",
+        "rating": 4,
+        "features": [
+          {
+            "quality": "Electric",
+            "color": "White",
+            "price": 50
+          }
+        ],
+        "tags": ["home appliance", "rice cooker", "Philips", "electric"]
+      },
+      {
+        "title": "Havells 16L Air Fryer",
+        "description": "Fry, grill, roast, and bake with little or no oil using this large-capacity air fryer.",
+        "isInStock": true,
+        "img": "../assets/images/home_appliances/havells_air_fryer.webp",
+        "discount": 40,
+        "price": 150,
+        "brand": "Havells",
+        "rating": 4,
+        "features": [
+          {
+            "quality": "Air Fryer",
+            "color": "Black",
+            "price": 150
+          }
+        ],
+        "tags": ["home appliance", "air fryer", "Havells", "oil-free"]
+      }
+    ]
+  }
+]

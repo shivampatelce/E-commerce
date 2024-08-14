@@ -1,0 +1,112 @@
+<!-- 
+Name: Shivam Patel
+Student Number: 8994760 
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="/jquery-ui/jquery-ui.structure.css" />
+    <link rel="stylesheet" href="../assets/styles/shared-style.css" />
+    <link rel="stylesheet" href="../assets/styles/cart.css" />
+  </head>
+  <body>
+    <main>
+      <div class="d-flex">
+        <div class="cart">
+          <h1 class="list-title">Cart</h1>
+          <div id="shopping-list-container"></div>
+          <div
+            id="add-to-shopping-list"
+            class="ui-widget-content ui-state-default drop-target"
+          >
+            <div class="drop-target">
+              <h2 id="empty-cart-msg" class="hide">Your cart is empty.</h2>
+              <h2>
+                Drag and drop wishlist items here to move them to your cart.
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="wishlist">
+          <h1 class="list-title">Wishlist</h1>
+          <div id="wishlist-container"></div>
+          <div
+            id="add-to-cart"
+            class="ui-widget-content ui-state-default drop-target"
+          >
+            <div>
+              <h2 id="empty-wishlist-msg" class="hide">
+                Your wishlist is empty.
+              </h2>
+              <h2>
+                Drag and drop cart items here to move them to your wishlist.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="discount-container hide">
+        <h2>Quiz Discount Coupon!</h2>
+        <p>Get 5% off</p>
+        <button class="apply-button">Apply</button>
+      </div>
+
+      <div class="play-quiz-button-container">
+        <button id="play-quiz-button">Play Quiz And Win Discount Coupon</button>
+      </div>
+
+      <div id="out-of-stock-warning"></div>
+      <div class="order-summary">
+        <h1>Order Summary</h1>
+        <div class="order-summary-container">
+          <div class="order-summary-field">
+            <div>Product Subtotal</div>
+            <span id="product-subtotal"></span>
+          </div>
+          <div class="order-summary-field">
+            <div>Discount</div>
+            <span id="total-discount"></span>
+          </div>
+          <div
+            class="order-summary-field hide"
+            id="additional-discount-summary-field"
+          >
+            <div>Additional Discount</div>
+            <span id="additional-discount"></span>
+          </div>
+          <div class="order-summary-field">
+            <div>Total items</div>
+            <span id="total-items"></span>
+          </div>
+          <div class="order-summary-field">
+            <div>Shipping Charge</div>
+            <span id="shipping-charge"></span>
+          </div>
+          <div class="order-summary-field">
+            <div>Taxes</div>
+            <span id="tax-amount"></span>
+          </div>
+        </div>
+        <div class="order-summary-subtotal">
+          <div>Total</div>
+          <span id="total"></span>
+        </div>
+        <button id="checkout-btn">Check out</button>
+      </div>
+    </main>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+  <script src="../jquery-ui/jquery-ui.js"></script>
+  <script src="../js/cart.js"></script>
+</html>

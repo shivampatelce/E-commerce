@@ -1,0 +1,122 @@
+<!-- 
+Name: Shivam Patel
+Student Number: 8994760 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="/jquery-ui/jquery-ui.structure.css" />
+    <link rel="stylesheet" href="../assets/styles/shared-style.css" />
+    <link rel="stylesheet" href="../assets/styles/product-list.css" />
+  </head>
+  <body>
+    <section class="searchContainer">
+      <input type="text" id="searchBar" />
+      <input type="button" id="searchBtn" value="Search" />
+    </section>
+    <main>
+      <div class="d-flex search-nav">
+        <div id="totalProduct"></div>
+        <button id="open-sidebar">Apply Filters</button>
+      </div>
+      <div class="card-list"></div>
+      <div id="notAvailable" class="hide"></div>
+
+      <div id="sidebar">
+        <div class="close-btn">&times;</div>
+        <div class="sidebar-content">
+          <div class="sorting-title">Sort</div>
+          <div class="sorting-option">
+            <input
+              type="radio"
+              id="priceHighToLow"
+              class="sorting-input"
+              name="sort_item"
+              value="priceHighToLow"
+            />
+            <label for="priceHighToLow">Price High to Low</label><br />
+
+            <input
+              type="radio"
+              id="priceLowToHigh"
+              class="sorting-input"
+              name="sort_item"
+              value="priceLowToHigh"
+            />
+            <label for="priceLowToHigh">Price Low to High</label><br />
+
+            <input
+              type="radio"
+              id="ratingHighToLow"
+              class="sorting-input"
+              name="sort_item"
+              value="ratingHighToLow"
+            />
+            <label for="ratingHighToLow">Rating High to Low</label><br />
+
+            <input
+              type="radio"
+              id="ratingLowToHigh"
+              class="sorting-input"
+              name="sort_item"
+              value="ratingLowToHigh"
+            />
+            <label for="ratingLowToHigh">Rating Low to High</label><br />
+
+            <input
+              type="radio"
+              id="moreDiscount"
+              class="sorting-input"
+              name="sort_item"
+              value="moreDiscount"
+            />
+            <label for="moreDiscount">More Discount</label><br />
+          </div>
+
+          <div class="sorting-title">Price range</div>
+          <div class="sorting-option">
+            <div id="slider-range"></div>
+            <p>
+              <input
+                type="text"
+                id="amount"
+                readonly="true"
+                style="border: 0; color: #f6931f; font-weight: bold"
+              />
+            </p>
+          </div>
+          <div id="filter-container">
+            <div class="filter-title">Brand</div>
+            <div class="filter-option" id="brand-option"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="aboutStore">
+        <p>Location</p>
+        <p>Address: N2H 3J8</p>
+        <p>Phone number: +1-426-857-9012</p>
+        <p>Mail@ Aonestore@gmail.com</p>
+      </div>
+      <div class="links">
+        <p>Disclaimer</p>
+        <p>About Store</p>
+        <p>Home</p>
+        <p>Reviews</p>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="../jquery-ui/jquery-ui.js"></script>
+  <script src="../js/product-list.js"></script>
+</html>

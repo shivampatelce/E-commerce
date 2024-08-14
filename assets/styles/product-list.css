@@ -1,0 +1,164 @@
+/*
+Name: Shivam Patel
+Student Number: 8994760 
+*/
+
+/* body {
+  padding: 20px;
+} */
+
+.card-list {
+  padding: 0px 20px;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  margin: 25px 0px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0px 0px 10px black;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+.details {
+  padding: 0px 20px;
+}
+
+#title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#description {
+  margin: 10px 0px;
+  font-size: 24px;
+}
+
+#price {
+  font-weight: 600;
+  font-size: 24px;
+  margin: 10px 0px;
+}
+
+#freeDelivery {
+  margin: 10px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.image {
+  width: 300px;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+#notAvailable {
+  width: fit-content;
+  margin: 30px auto;
+}
+
+#discount,
+#outOfStock {
+  color: #bb0628;
+}
+
+#inStock {
+  color: green;
+}
+
+#sidebar {
+  position: fixed;
+  right: -250px;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: white;
+  transition: right 0.3s;
+  padding: 15px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+}
+
+.sidebar-content {
+  padding: 20px;
+}
+
+#sidebar .close-btn {
+  cursor: pointer;
+  font-size: 30px;
+}
+
+#open-sidebar {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 20px 10px 10px;
+}
+
+#totalProduct {
+  margin-left: 20px;
+}
+
+.search-nav {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sorting-title,
+.filter-title {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 0px;
+}
+
+.sorting-option,
+.filter-option {
+  padding-left: 20px;
+}
+
+#amount {
+  background: #333;
+  padding: 10px 0px;
+  color: #0080ff !important;
+}
+
+.checkbox-input {
+  margin-left: 20px;
+}
+
+.card-btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+.star {
+  font-size: 24px;
+  color: gray;
+}
+
+.filled {
+  color: gold;
+}

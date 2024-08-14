@@ -1,0 +1,34 @@
+/*
+Name: Shivam Patel
+Student Number: 8994760 
+[START]
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+/*
+Name: Shivam Patel
+Student Number: 8994760 
+[END]
+*/
+
+footer {
+  margin-top: 20px;
+  display: flex;
+  background-color: red;
+  padding: 10px;
+  justify-content: space-around;
+  color: white;
+}
+
+footer p {
+  font-size: 1rem;
+  padding: 10px;
+}
