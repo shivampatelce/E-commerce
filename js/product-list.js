@@ -53,9 +53,7 @@ const getProductsByCategoryName = (categoryName, PRODUCT_DATA) => {
       category.title.toLowerCase() ==
         (categoryName && categoryName.toLowerCase()) ||
       (categoryName.length > 3 &&
-        category.title.toLowerCase().includes(categoryName.toLowerCase())) ||
-      (categoryName.length > 3 &&
-        categoryName.toLowerCase().includes(category.title.toLowerCase()))
+        category.title.toLowerCase().includes(categoryName.toLowerCase()))
   );
   return category && category.products;
 };
