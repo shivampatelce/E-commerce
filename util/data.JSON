@@ -34,7 +34,7 @@
         "tags": ["laptop", "acer", "3", "Aspire"]
       },
       {
-        "title": "Dell Laptop 15.6 Full HD Display | AMD Ryzen 7 5700U CPU | 16GB DDR4 | 1TB SSD | Windows 11 Home (1 Yr Manufacturer Warranty)",
+        "title": "Dell Laptop 15.6 Full HD Display | AMD Ryzen 7 5700U CPU",
         "description": "This product is inspected, tested, and refurbished, as necessary to be fully functional according to Amazon Renewed standards.",
         "isInStock": false,
         "img": "../assets/images/laptop/Dell Laptop 15.6 Full HD Display .webp",
@@ -62,7 +62,7 @@
         "tags": ["laptop", "dell", "15.6", "Full HD"]
       },
       {
-        "title": "Lenovo Laptop 15.6 Full HD Display | AMD Ryzen 7 5700U CPU | 16GB DDR4 | 1TB SSD | Windows 11 Home (1 Yr Manufacturer Warranty)",
+        "title": "Lenovo Laptop 15.6 Full HD Display | AMD Ryzen 7 5700U CPU",
         "description": "This product is inspected, tested, and refurbished, as necessary to be fully functional according to Amazon Renewed standards.",
         "isInStock": true,
         "img": "../assets/images/laptop/51NuxGz8sQL._AC_UL960_FMwebp_QL65_.webp",
@@ -89,7 +89,7 @@
         "tags": ["laptop", "lenovo", "15.6", "Full HD"]
       },
       {
-        "title": "Mac book pro | AMD Ryzen 7 5700U CPU | 16GB DDR4 | 1TB SSD | Windows 11 Home (1 Yr Manufacturer Warranty)",
+        "title": "Mac book pro | AMD Ryzen 7 5700U CPU | 16GB DDR4",
         "description": "This product is inspected, tested, and refurbished, as necessary to be fully functional according to Amazon Renewed standards.",
         "isInStock": true,
         "img": "../assets/images/laptop/61tGIRjhumL._AC_UL960_FMwebp_QL65_.webp",
@@ -115,7 +115,7 @@
         "tags": ["laptop", "mac book pro", "apple", "M1 Pro"]
       },
       {
-        "title": "Acer Chromebook 14 | Intel Celeron | 4GB RAM | 64GB eMMC | Chrome OS",
+        "title": "Acer Chromebook 14 | Intel Celeron | 4GB RAM | 64GB eMMC",
         "description": "A lightweight and efficient Chromebook with long battery life, perfect for students and everyday tasks.",
         "img": "../assets/images/laptop/713cruyVhoL._AC_UL960_FMwebp_QL65_.webp",
         "discount": 50,
@@ -142,7 +142,7 @@
         "tags": ["laptop", "acer", "chromebook", "14inch"]
       },
       {
-        "title": "HP Pavilion 15.6 | Intel Core i7 | 16GB RAM | 512GB SSD | Windows 11 Home",
+        "title": "HP Pavilion 15.6 | Intel Core i7 | 16GB RAM | 512GB SSD",
         "description": "HP Pavilion offers the perfect blend of performance, reliability, and design for your everyday computing needs.",
         "img": "../assets/images/laptop/31W4Wv-h71L._AC_SX425_23.jpg",
         "discount": 120,
@@ -168,7 +168,7 @@
         "tags": ["laptop", "hp", "Pavilion", "GTX 1650"]
       },
       {
-        "title": "Lenovo Laptop 15.6 Full HD Display | Think pad 5700U CPU | 16GB DDR4 | 1TB SSD | Windows 11 Home (1 Yr Manufacturer Warranty)",
+        "title": "Lenovo Laptop 15.6 Full HD Display | Think pad 5700U CPU",
         "description": "This product is inspected, tested, and refurbished, as necessary to be fully functional according to Amazon Renewed standards.",
         "isInStock": true,
         "img": "../assets/images/laptop/5119Kog5+qL._AC_UL960_FMwebp_QL65_.webp",

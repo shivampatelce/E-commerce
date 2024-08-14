@@ -1,4 +1,4 @@
-// Name: Jiten Shreshtha 
+// Name: Jiten Shreshtha
 // Student number: 8980448
 
 "use strict";
@@ -17,12 +17,12 @@ $(() => {
   $("#searchBar").focus();
   setCartBadgeCount();
 
-  // getting the class from html to display dynamically
+  // getting the class from html to display dynamically and initializing a array to keep data obtained from JSON file.
   let productList = $(".productList");
   let randomProductList = $(".randomProductList");
   let products = [];
 
-  // fetching data from JSON file 
+  // fetching data from JSON file
   fetch("../util/data.JSON")
     .then((res) => res.json())
     .then((data) => {
@@ -31,7 +31,7 @@ $(() => {
       randomProduct(products);
     });
 
-    // this function searches data in title,description and tags, returns the error message if not found any
+  // this function searches data in title,description and tags, returns the error message if not found any
   $("#searchBtn").on("click", () => {
     const searchedData = $("#searchBar").val().trim().toLowerCase();
     const filteredProducts = products.reduce((acc, product) => {

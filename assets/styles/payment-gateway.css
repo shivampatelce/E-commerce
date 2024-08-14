@@ -18,7 +18,6 @@
     width: 80%;
     border-radius:26px;
     background: radial-gradient(#254e9a, #60839f);
-
 }
 
 .close {
@@ -38,12 +37,7 @@
     display:flex;
     justify-content: space-between;
 }
-.left-container{
-    /* width:50% */
-}
-.right-container{
-    /* width:50% */
-}
+
 label {
     display: inline;
     font-size: 14px;
@@ -51,7 +45,6 @@ label {
     padding: 4px;
 }
 input{
-    /* width: 223px; */
     width: 80%;
     border-radius: 20px;
     box-sizing: border-box; 
@@ -79,10 +72,6 @@ input{
     margin-top: 64px;
 
 }
-/* .card-group {
-    display: flex;
-    justify-content: center;} */
-
 .card-button {
     display: flex;
     justify-content: center;
@@ -135,10 +124,8 @@ input{
     font-size: 24px;
     font-weight: bold;
     border: 1px solid #0056b3;
-    position: absolute;
-  
+    position: absolute; 
 }
-
 .Place-Order button:hover {
     background-color: #0056b3; 
     color: rgba(255, 255, 255, 0.9);
