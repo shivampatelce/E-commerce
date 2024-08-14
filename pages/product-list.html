@@ -19,13 +19,32 @@ Student Number: 8994760
     <link rel="stylesheet" href="../assets/styles/product-list.css" />
   </head>
   <body>
-    <section class="searchContainer">
-      <input type="text" id="searchBar" />
-      <input type="button" id="searchBtn" value="Search" />
-    </section>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="./index.html">
+          <img src="../assets/images/Logo.png" height="50" alt="Logo" />
+        </a>
+      </div>
+      <div class="search-bar">
+        <input type="text" id="searchBar" placeholder="Search products..." />
+        <input type="button" id="searchBtn" value="Search" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="cart-icon">
+          <a href="./cart.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="cart-badge">0</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
     <main>
       <div class="d-flex search-nav">
-        <div id="totalProduct"></div>
         <button id="open-sidebar">Apply Filters</button>
       </div>
       <div class="card-list"></div>
@@ -101,6 +120,7 @@ Student Number: 8994760
         </div>
       </div>
     </main>
+
     <footer>
       <div class="aboutStore">
         <p>Location</p>

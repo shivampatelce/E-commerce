@@ -194,6 +194,7 @@ const displayCart = () => {
             draggableWishlistItem();
             draggableCartItem();
             calculateOrderSummary();
+            setCartBadgeCount();
           }
         });
 
@@ -208,6 +209,7 @@ const displayCart = () => {
           draggableWishlistItem();
           draggableCartItem();
           calculateOrderSummary();
+          setCartBadgeCount();
         });
 
         $("#shopping-list-container").append(card);
@@ -267,6 +269,7 @@ const moveItemFromWishlistToShoppingList = ($item) => {
   draggableWishlistItem();
   draggableCartItem();
   calculateOrderSummary();
+  setCartBadgeCount();
 };
 
 // Handle moving item from cart to wishlist
@@ -291,6 +294,7 @@ const moveItemCartToWishlist = ($item) => {
   draggableWishlistItem();
   draggableCartItem();
   calculateOrderSummary();
+  setCartBadgeCount();
 };
 
 // Allow wishlist item to be a draggable
@@ -414,6 +418,11 @@ const calculateTax = (price, taxRate) => {
   return taxAmount;
 };
 
+const setCartBadgeCount = () => {
+  const cartItems = JSON.parse(localStorage.getItem("cart") || []);
+  $(".cart-badge").text(cartItems.length);
+};
+
 $(async () => {
   await fetchData().then((res) => {
     PRODUCT_DATA = res;
@@ -424,6 +433,7 @@ $(async () => {
   draggableWishlistItem();
   draggableCartItem();
   calculateOrderSummary();
+  setCartBadgeCount();
 
   // Handle click on discount apply button
   $(".apply-button").on("click", () => {
@@ -438,5 +448,13 @@ $(async () => {
   // Redirect to quiz page on click Play quiz button
   $(".play-quiz-button-container").on("click", () => {
     window.location.href = "../pages/quiz.html";
+  });
+
+  // Search button click
+  $("#searchBtn").on("click", () => {
+    const searchedData = $("#searchBar").val().trim();
+    if (searchedData) {
+      window.location.href = `product-list.html?categoryName=${searchedData}&isSearchedCategory=${true}`;
+    }
   });
 });

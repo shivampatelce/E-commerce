@@ -76,10 +76,6 @@ const getProductsByTitle = (categoryName, PRODUCT_DATA) => {
 
 // Display product list
 const setProductList = (productList, categoryName) => {
-  $("#totalProduct").html(
-    `<b>${productList.length}</b> results for <b>"${categoryName}"</b>`
-  );
-
   // Clear card list before adding products.
   $(".card-list").html("");
 
@@ -290,6 +286,11 @@ const getAllBrand = (categoryName, PRODUCT_DATA) => {
   ];
 };
 
+const setCartBadgeCount = () => {
+  const cartItems = JSON.parse(localStorage.getItem("cart") || []);
+  $(".cart-badge").text(cartItems.length);
+};
+
 $(async () => {
   let PRODUCT_DATA = [];
 
@@ -306,6 +307,8 @@ $(async () => {
   // Get specific query parameters
   const categoryName = urlParams.get("categoryName");
   const isSearchedCategory = urlParams.get("isSearchedCategory");
+
+  setCartBadgeCount();
 
   // Redirect to home page if category name not entered
   if (categoryName) {
@@ -368,20 +371,5 @@ $(async () => {
     if (searchedData) {
       window.location.href = `product-list.html?categoryName=${searchedData}&isSearchedCategory=${true}`;
     }
-    // const filteredProducts = products.reduce((acc, product) => {
-    //   const filteredProductList = product.products.filter((item) => {
-    //     return (
-    //       item.title.toLowerCase().includes(searchedData) ||
-    //       item.description.toLowerCase().includes(searchedData) ||
-    //       item.tags.some((tag) => tag.toLowerCase().includes(searchedData))
-    //     );
-    //   });
-    //   return acc.concat(filteredProductList);
-    // }, []);
-    // if (filteredProducts.length > 0) {
-    //   renderProducts(filteredProducts);
-    // } else {
-    //   $("#product-List").html("<p>No results found.</p>");
-    // }
   });
 });

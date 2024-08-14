@@ -3,7 +3,7 @@ Name: Shivam Patel
 Student Number: 8994760 
 */
 
-body {
+main {
   padding: 20px;
 }
 
@@ -139,7 +139,7 @@ body {
 }
 
 #checkout-btn {
-  background-color: #0080ff;
+  background-color: #333;
   color: white;
   width: 100%;
   border: none;

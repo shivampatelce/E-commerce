@@ -18,6 +18,30 @@ Student Number: 8994760
     <link rel="stylesheet" href="../assets/styles/cart.css" />
   </head>
   <body>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="./index.html">
+          <img src="../assets/images/Logo.png" height="50" alt="Logo" />
+        </a>
+      </div>
+      <div class="search-bar">
+        <input type="text" id="searchBar" placeholder="Search products..." />
+        <input type="button" id="searchBtn" value="Search" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="cart-icon">
+          <a href="./cart.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="cart-badge">0</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
     <main>
       <div class="d-flex">
         <div class="cart">
@@ -104,6 +128,21 @@ Student Number: 8994760
         <button id="checkout-btn">Check out</button>
       </div>
     </main>
+
+    <footer>
+      <div class="aboutStore">
+        <p>Location</p>
+        <p>Address: N2H 3J8</p>
+        <p>Phone number: +1-426-857-9012</p>
+        <p>Mail@ Aonestore@gmail.com</p>
+      </div>
+      <div class="links">
+        <p>Disclaimer</p>
+        <p>About Store</p>
+        <p>Home</p>
+        <p>Reviews</p>
+      </div>
+    </footer>
   </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>

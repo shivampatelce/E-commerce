@@ -92,6 +92,7 @@ const displayResult = () => {
       <button id="cart-btn">Go To Cart</button>
     `);
     localStorage.setItem("hasCoupon", true);
+    localStorage.setItem("couponWinningTime", JSON.stringify(new Date()));
   } else {
     $("#result-msg").html(`
       <div>Unfortunately, you didn't provide 4 correct answers this time, so you won't receive the 5% discount coupon. Better luck next time!</div>

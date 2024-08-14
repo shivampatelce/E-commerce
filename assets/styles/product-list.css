@@ -92,6 +92,7 @@ a {
   padding: 15px;
   box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
+  margin-top: 60px;
 }
 
 .sidebar-content {
@@ -119,7 +120,8 @@ a {
 
 .search-nav {
   align-items: center;
-  justify-content: space-between;
+  float: right;
+  padding: 10px 0px;
 }
 
 .sorting-title,

@@ -66,7 +66,7 @@ $(() => {
         const productDiv = $("<div>").addClass("random-product");
         productDiv.html(`
           <a href='./product-list.html?productName=${randomProducts.title}'>
-            <img src='${randomProducts.image}' alt='${randomProducts.title}'>
+            <img src='${randomProducts.img}' alt='${randomProducts.title}'>
             <h2>${randomProducts.title}</h2>
           </a>
         `);
