@@ -1,4 +1,8 @@
+// Name: Jiten Shreshtha 
+// Student number: 8980448
+
 "use strict";
+// this function creates a slideshow of images
 $(() => {
   let currentIndex = 0;
   function showNextSlide() {
@@ -13,10 +17,12 @@ $(() => {
   $("#searchBar").focus();
   setCartBadgeCount();
 
+  // getting the class from html to display dynamically
   let productList = $(".productList");
   let randomProductList = $(".randomProductList");
   let products = [];
 
+  // fetching data from JSON file 
   fetch("../util/data.JSON")
     .then((res) => res.json())
     .then((data) => {
@@ -25,6 +31,7 @@ $(() => {
       randomProduct(products);
     });
 
+    // this function searches data in title,description and tags, returns the error message if not found any
   $("#searchBtn").on("click", () => {
     const searchedData = $("#searchBar").val().trim().toLowerCase();
     const filteredProducts = products.reduce((acc, product) => {
@@ -44,6 +51,7 @@ $(() => {
     }
   });
 
+  // This function displays the list of products in the html.
   function renderProducts(products) {
     productList.empty();
     $.each(products, (index, product) => {
@@ -58,12 +66,12 @@ $(() => {
     });
   }
 
+  // This function displays the random product of every category
   function randomProduct(products) {
     randomProductList.empty();
     $.each(products, (index, productCategory) => {
       const randomProducts = getRandomProduct(productCategory.products, 1)[0];
       if (randomProducts) {
-        // console.log(randomProducts);
         const productDiv = $("<div>").addClass("random-product");
         productDiv.html(`
           <a href='./product-list.html?productName=${randomProducts.title}'>
@@ -80,6 +88,7 @@ $(() => {
     return productList.splice(randomIndex, count);
   }
 
+  // This function gets number of cart items from localstorage and displays in header.
   function setCartBadgeCount() {
     const cartItems = JSON.parse(localStorage.getItem("cart")) || [];
     if (cartItems) {

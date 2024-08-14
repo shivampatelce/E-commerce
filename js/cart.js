@@ -437,6 +437,6 @@ $(async () => {
   });
 
   $("#checkout-btn").on("click", () => {
-    window.location.href = "../pages/checkout.html";
+    window.location.href = "../pages/payment-gateway.html";
   });
 });
