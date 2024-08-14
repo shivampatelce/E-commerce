@@ -4,28 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-Commerce</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="../assets/styles/style.css" />
     <link rel="stylesheet" href="../assets/styles/shared-style.css" />
   </head>
   <body>
-    <header>
-      <div class="logoContainer">
-        <div class="logoContent">
-          <img src="../Assets/Images/Logo.png" alt="" srcset="" />
-        </div>
-        <ul class="linksContainer">
-          <li>Home</li>
-          <li>Products</li>
-          <li>About</li>
-          <li>Shop</li>
-        </ul>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="./index.html">
+          <img src="../assets/images/Logo.png" height="50" alt="Logo" />
+        </a>
       </div>
-    </header>
-    <main class="mainContainer">
-      <section class="searchContainer">
-        <input type="text" id="searchBar" />
+      <div class="search-bar">
+        <input type="text" id="searchBar" placeholder="Search products..." />
         <input type="button" id="searchBtn" value="Search" />
-      </section>
+      </div>
+      <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="cart-icon">
+          <a href="./cart.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="cart-badge">0</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="mainContainer">
       <section class="imageslider">
         <div class="imageSlides">
           <img

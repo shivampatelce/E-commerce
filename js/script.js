@@ -11,6 +11,7 @@ $(() => {
   $(".slide").first().addClass("active");
 
   $("#searchBar").focus();
+  setCartBadgeCount();
 
   let productList = $(".productList");
   let randomProductList = $(".randomProductList");
@@ -77,5 +78,12 @@ $(() => {
   function getRandomProduct(productList, count) {
     const randomIndex = Math.floor(Math.random() * productList.length);
     return productList.splice(randomIndex, count);
+  }
+
+  function setCartBadgeCount() {
+    const cartItems = JSON.parse(localStorage.getItem("cart")) || [];
+    if (cartItems) {
+      $(".cart-badge").text(cartItems.length);
+    }
   }
 });

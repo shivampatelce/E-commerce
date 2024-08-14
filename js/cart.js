@@ -419,7 +419,7 @@ const calculateTax = (price, taxRate) => {
 };
 
 const setCartBadgeCount = () => {
-  const cartItems = JSON.parse(localStorage.getItem("cart") || []);
+  const cartItems = JSON.parse(localStorage.getItem("cart")) || [];
   $(".cart-badge").text(cartItems.length);
 };
 
