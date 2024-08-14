@@ -85,7 +85,7 @@ const setProductList = (productList, categoryName) => {
     let isFavorite = favorites.includes(title);
 
     const card = $(`
-                  <a href="./product.html?productName='${title}'">
+                  <a href="./product-description.html?productName='${title}'">
                       <div class="card">
                           <div class="image">
                               <img

@@ -457,4 +457,8 @@ $(async () => {
       window.location.href = `product-list.html?categoryName=${searchedData}&isSearchedCategory=${true}`;
     }
   });
+
+  $("#checkout-btn").on("click", () => {
+    window.location.href = "../pages/checkout.html";
+  });
 });

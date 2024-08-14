@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Description</title>
+    <link rel="stylesheet" href="../assets/styles/product-description.css" />
+
+</head>
+<body>
+    <div class="header-container">
+        <span><h2>E-Commerce Site</h2></span>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product List</a></li>
+            <li><a href="#">Login In</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </div>
+<div class="container">
+    <div class="main-container">
+        <div class="left-container">
+            <div class="product-image">
+                <img src="" class="product-main-image" id="product-main-image">
+            </div>
+            <div class="related-image">
+                <div class="small-box"><img src="../assets/images/laptop/5119Kog5+qL._AC_UL960_FMwebp_QL65_.webp" class="thumbnail"></div>
+                <div class="small-box"><img src="../assets/images/laptop/51lR5NB9j-L._AC_UL960_FMwebp_QL65_.webp" class="thumbnail"></div>
+                <div class="small-box"><img src="../assets/images/laptop/51NuxGz8sQL._AC_UL960_FMwebp_QL65_.webp" class="thumbnail"></div>
+                <div class="small-box"><img src="../assets/images/laptop/61tGIRjhumL._AC_UL960_FMwebp_QL65_.webp" class="thumbnail"></div>
+
+            </div>
+        </div>
+
+        <div class="description">
+            <h1 id="product-name"></h1>
+            <p class="product-info" id="product-info"></p>
+            <div class="product-price">
+                <span>Price: </span>
+                <span id="price-value"></span>
+                <span id="actual-price"></span>
+            </div>
+            <table class="input-table">
+                <tr>
+                    <td>Quantity</td>
+                    <!-- <td><input type="number" id="quantity"></td> -->
+                    <td class="quantity-row">
+                        <button id="decrement" class="quantity-button-tag">-</button>
+                        <input type="number" id="quantity" value="0" class="quantity-input-tag">
+                        <button id="increment" class="quantity-button-tag">+</button>
+                    </td>
+                    <!-- <div class="box quantity-box">
+                    <button class="btncircledesign" tabindex="0" aria-label="Subtract">
+                    <i class="far fa-minus plus-icon " aria-label="Subtract" tabindex="-1" title="" aria-hidden="true"></i>
+                    </button><input class="input qty-input" id="quantity" type="number" inputmode="numeric" aria-label="Quantity" value="1"><div class="qty-counter inc-Icon"><button class="btncircledesign" tabindex="0" aria-label="Add"><i class="far fa-plus plus-icon " aria-label="Add" tabindex="-1" title="" aria-hidden="true"></i></button></div></div> -->
+                </tr>
+
+                <tr>
+                    <td>Sub Total: </td>
+                    <td><div id="sub-total"> </div></td>
+                </tr>
+
+                <tr>
+                    <td>Tax (3%): </td>
+                    <td><div id="tax"></div></td>
+                </tr>
+
+                <tr>
+                    <td>Total: </td>
+                    <td><div id="Total"></div></td>
+                </tr>
+            </table>
+
+            <button id="add-to-cart-button">Add To Cart</button>
+        </div>
+       
+    </div>
+    <div class="feature-section">
+        <h2>Product Features</h2>
+        <table id="feature-table">
+            <thead>
+                <tr>
+                    <th>display</th>
+                    <th>battery</th>
+                    <th>GPU</th>
+                    <th>CPU</th>
+                    <th>RAM</th>
+                    <th>storage</th>
+                </tr>
+            </thead>
+            <tbody id="feature-body">
+                <tr>
+                    <td id="feature-display"></td>
+                    <td id="feature-battery"></td>
+                    <td id="feature-gpu"></td>
+                    <td id="feature-cpu"></td>
+                    <td id="feature-ram"></td>
+                    <td id="feature-storage"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="similar-products-section">
+        <h2>Similar Products</h2>
+        <div id="similar-products" class="similar-products-grid">
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="../js/product-description.js"></script>
+</body>
+</html>
