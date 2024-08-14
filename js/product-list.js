@@ -91,7 +91,6 @@ const setProductList = (productList, categoryName) => {
                           <div class="image">
                               <img
                                   src="${img}"
-                                  height="240px"
                                   width="300px"
                                   alt="${title}"
                               />

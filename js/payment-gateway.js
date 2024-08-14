@@ -1,6 +1,5 @@
 "use strict";
 document.addEventListener("DOMContentLoaded", function () {
-  console.log("hellooo");
   document
     .getElementById("place-order-button")
     .addEventListener("click", function (e) {
@@ -86,4 +85,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     return expiry > currentDate;
   }
+
+  $(".close").on("click", () => {
+    window.location.href = "../pages/cart.html";
+  });
 });

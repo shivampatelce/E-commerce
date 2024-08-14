@@ -15,7 +15,10 @@
         "rating": 4,
         "relatedImages": [
           "../assets/images/laptop/Acer Aspire 3.webp",
-          "../assets/images/laptop/Dell Laptop 15.6 Full HD Display .webp"
+          "../assets/images/laptop/71MftKwQBCL._AC_.jpg",
+          "../assets/images/laptop/61gKkYQn6lL._AC_.jpg",
+          "../assets/images/laptop/51jYjNvbfPL.jpg",
+          "../assets/images/laptop/51dXUsBA2RL.jpg"
         ],
         "features": [
           {
@@ -50,6 +53,12 @@
             "storage": "512GB"
           }
         ],
+        "relatedImages": [
+          "../assets/images/laptop/Dell Laptop 15.6 Full HD Display .webp",
+          "../assets/images/laptop/51DHqywkNYL._AC_SX425_.jpg",
+          "../assets/images/laptop/51hoHzxVI3L._AC_SY355_.jpg",
+          "../assets/images/laptop/51MFIF7aqmL._AC_SY355_.jpg"
+        ],
         "tags": ["laptop", "dell", "15.6", "Full HD"]
       },
       {
@@ -71,6 +80,11 @@
             "RAM": "16GB",
             "storage": "1TB"
           }
+        ],
+        "relatedImages": [
+          "../assets/images/laptop/51NuxGz8sQL._AC_UL960_FMwebp_QL65_.webp",
+          "../assets/images/laptop/51vVdEHEO7L._AC_SX425_.jpg",
+          "../assets/images/laptop/41aEck01ZFL._AC_SX425_.jpg"
         ],
         "tags": ["laptop", "lenovo", "15.6", "Full HD"]
       },
@@ -94,6 +108,10 @@
             "price": 900
           }
         ],
+        "relatedImages": [
+          "../assets/images/laptop/61tGIRjhumL._AC_UL960_FMwebp_QL65_.webp",
+          "../assets/images/laptop/31H8Q0jutjL._AC_SX425_.jpg"
+        ],
         "tags": ["laptop", "mac book pro", "apple", "M1 Pro"]
       },
       {
@@ -116,12 +134,17 @@
             "price": 750
           }
         ],
+        "relatedImages": [
+          "../assets/images/laptop/713cruyVhoL._AC_UL960_FMwebp_QL65_.webp",
+          "../assets/images/laptop/51jYjNvbfPL.jpg",
+          "../assets/images/laptop/51dXUsBA2RL.jpg"
+        ],
         "tags": ["laptop", "acer", "chromebook", "14inch"]
       },
       {
         "title": "HP Pavilion 15.6 | Intel Core i7 | 16GB RAM | 512GB SSD | Windows 11 Home",
         "description": "HP Pavilion offers the perfect blend of performance, reliability, and design for your everyday computing needs.",
-        "img": "../assets/images/laptop/hp_pavilion.webp",
+        "img": "../assets/images/laptop/31W4Wv-h71L._AC_SX425_23.jpg",
         "discount": 120,
         "isInStock": true,
         "price": 750,
@@ -137,6 +160,10 @@
             "storage": "512GB SSD",
             "price": 750
           }
+        ],
+        "relatedImages": [
+          "../assets/images/laptop/31W4Wv-h71L._AC_SX425_23.jpg",
+          "../assets/images/laptop/81BgXoKn7hL._AC_SX425_.jpg"
         ],
         "tags": ["laptop", "hp", "Pavilion", "GTX 1650"]
       },
@@ -159,6 +186,11 @@
             "storage": "1TB",
             "price": 800
           }
+        ],
+        "relatedImages": [
+          "../assets/images/laptop/5119Kog5+qL._AC_UL960_FMwebp_QL65_.webp",
+          "../assets/images/laptop/51vVdEHEO7L._AC_SX425_.jpg",
+          "../assets/images/laptop/41aEck01ZFL._AC_SX425_.jpg"
         ],
         "tags": ["laptop", "lenovo", "think pad"]
       }
@@ -189,6 +221,11 @@
             "price": 1099
           }
         ],
+        "relatedImages": [
+          "../assets/images/smartphones/Apple iPhone 8 64 GB.webp",
+          "../assets/images/smartphones/31pMfHWBPsL._AC_SX425_.jpg",
+          "../assets/images/smartphones/411k9hOwcNL._AC_SX425_.jpg"
+        ],
         "tags": ["smartphone", "apple", "iphone", "A15 Bionic"]
       },
       {
@@ -210,6 +247,11 @@
             "storage": "128GB",
             "price": 1199
           }
+        ],
+        "relatedImages": [
+          "../assets/images/smartphones/Apple iPhone 14 Pro, 256GB, Silver.webp",
+          "../assets/images/smartphones/51x3xIa8MsL._AC_SX425_.jpg",
+          "../assets/images/smartphones/718muFN+T+L._AC_SX425_.jpg"
         ],
         "tags": ["smartphone", "apple"]
       },
@@ -233,6 +275,11 @@
             "price": 899
           }
         ],
+        "relatedImages": [
+          "../assets/images/smartphones/Apple iPhone Xs Fully Unlocked 256GB Gold.webp",
+          "../assets/images/smartphones/6109yVrAn2L._AC_SX679_.jpg",
+          "../assets/images/smartphones/616UJ13DepL._AC_SY606_.jpg"
+        ],
         "tags": ["smartphone", "apple"]
       },
       {
@@ -254,6 +301,9 @@
             "storage": "256GB",
             "price": 969
           }
+        ],
+        "relatedImages": [
+          "../assets/images/smartphones/Pixel 8a - 128 GB.webp"
         ],
         "tags": ["smartphone", "Google"]
       },
@@ -277,6 +327,12 @@
             "price": 1299
           }
         ],
+        "relatedImages": [
+          "../assets/images/smartphones/Galaxy Z Fold6, AI Smartphone, Android.webp",
+          "../assets/images/smartphones/31MFN9CYG4L._AC_SX425_.jpg",
+          "../assets/images/smartphones/31Dabj8X-FL._AC_SX425_.jpg",
+          "../assets/images/smartphones/31RN3kFZWUL._AC_SX425_.jpg"
+        ],
         "tags": ["smartphone", "Samsung"]
       },
       {
@@ -298,6 +354,12 @@
             "storage": "256GB",
             "price": 1299
           }
+        ],
+        "relatedImages": [
+          "../assets/images/smartphones/Samsung Galaxy S20 FE (5G).webp",
+          "../assets/images/smartphones/61-efuqz7eL._AC_SY879_.jpg",
+          "../assets/images/smartphones/51a92TLl0dL._AC_SY879_.jpg",
+          "../assets/images/smartphones/71yDCRxmP-L._AC_SY879_.jpg"
         ],
         "tags": ["smartphone", "Samsung"]
       }
@@ -412,13 +474,13 @@
   },
   {
     "id": 4,
-    "title": "Monitors",
-    "image": "../assets/images/Monitors.jpeg",
+    "title": "Watches",
+    "image": "../assets/images/Watch.jpg",
     "products": [
       {
         "title": "Apple Watch Series 7 | 45mm | GPS",
         "description": "The largest, most advanced Always-On Retina display. Breakthrough health innovations like sensors for blood oxygen and ECG.",
-        "img": "../assets/images/smartwatches/apple_watch_series_7.webp",
+        "img": "../assets/images/smartwatches/61rLR99T6ZL._AC_SX466_.jpg",
         "discount": 50,
         "isInStock": true,
         "price": 399,
@@ -433,12 +495,16 @@
             "price": 399
           }
         ],
+        "relatedImages": [
+          "../assets/images/smartwatches/61rLR99T6ZL._AC_SX466_.jpg",
+          "../assets/images/smartwatches/61DJNsgb+5L._AC_SX466_.jpg"
+        ],
         "tags": ["smartwatch", "apple", "watch", "health"]
       },
       {
         "title": "Samsung Galaxy Watch 4 | 44mm | LTE",
         "description": "Sleek, lightweight design with Wear OS, body composition analysis, and advanced sleep tracking.",
-        "img": "../assets/images/smartwatches/samsung_galaxy_watch_4.webp",
+        "img": "../assets/images/smartwatches/41Os9AtAYbL.__AC_SY300_SX300_QL70_ML2_.jpg",
         "discount": 50,
         "isInStock": true,
         "price": 349,
@@ -453,12 +519,17 @@
             "price": 349
           }
         ],
+        "relatedImages": [
+          "../assets/images/smartwatches/41Os9AtAYbL.__AC_SY300_SX300_QL70_ML2_.jpg",
+          "../assets/images/smartwatches/418S76qMQxL._AC_SX679_.jpg",
+          "../assets/images/smartwatches/41Os9AtAYbL.__AC_SY300_SX300_QL70_ML2_.jpg"
+        ],
         "tags": ["smartwatch", "samsung", "galaxy", "health"]
       },
       {
         "title": "Garmin Forerunner 945 | GPS",
         "description": "Premium GPS running/triathlon smartwatch with music, offering advanced performance metrics and maps.",
-        "img": "../assets/images/smartwatches/garmin_forerunner_945.webp",
+        "img": "../assets/images/smartwatches/61BN6RnpcWS._AC_SX425_.jpg",
         "discount": 70,
         "isInStock": true,
         "price": 599,
@@ -473,32 +544,16 @@
             "price": 599
           }
         ],
-        "tags": ["smartwatch", "garmin", "forerunner", "fitness"]
-      },
-      {
-        "title": "Fitbit Versa 3 | Health & Fitness Smartwatch",
-        "description": "Get call, text, and app notifications, use Amazon Alexa Built-in, and track your fitness goals.",
-        "img": "../assets/images/smartwatches/fitbit_versa_3.webp",
-        "discount": 30,
-        "isInStock": true,
-        "price": 229,
-        "brand": "Google",
-        "rating": 4,
-        "features": [
-          {
-            "display": "1.58inch AMOLED",
-            "battery": "6+ days",
-            "sensors": "Heart Rate, SpO2",
-            "connectivity": "GPS, NFC",
-            "price": 229
-          }
+        "relatedImages": [
+          "../assets/images/smartwatches/61BN6RnpcWS._AC_SX425_.jpg",
+          "../assets/images/smartwatches/6133WFgZmOS._AC_SX425_.jpg"
         ],
-        "tags": ["smartwatch", "fitbit", "versa", "health"]
+        "tags": ["smartwatch", "garmin", "forerunner", "fitness"]
       },
       {
         "title": "Fossil Gen 6 | 44mm | Stainless Steel",
         "description": "Powered by Wear OS, offering customizable watch faces, heart rate tracking, and rapid charging.",
-        "img": "../assets/images/smartwatches/fossil_gen_6.webp",
+        "img": "../assets/images/smartwatches/514ByxzcFXL._AC_SX679_.jpg",
         "discount": 40,
         "isInStock": true,
         "price": 299,
@@ -512,6 +567,12 @@
             "connectivity": "Bluetooth, Wi-Fi",
             "price": 299
           }
+        ],
+        "relatedImages": [
+          "../assets/images/smartwatches/514ByxzcFXL._AC_SX679_.jpg",
+          "../assets/images/smartwatches/51MZRDPLKXL._AC_SX679_.jpg",
+          "../assets/images/smartwatches/51CxFXM0MfL._AC_SX679_.jpg",
+          "../assets/images/smartwatches/51gXeFlCeEL._AC_SX679_.jpg"
         ],
         "tags": ["smartwatch", "fossil", "gen6", "fashion"]
       }

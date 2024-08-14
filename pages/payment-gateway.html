@@ -1,83 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/styles/payment-gateway.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/styles/payment-gateway.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
 
     <title>Payment Gateway</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div id="modal-container" class="modal">
-        <div class="modal-content">
-          <span class="close">&times;</span>
-          <div class="container">
-            <div class="left-container">
-                <h2>Shipment Address</h2>
-                <form>
-                    <input placeholder="Name :" type="text" id="name" name="name" class="input">
-                    <!-- <i class="fa-solid fa-user"></i> -->
-                    <br>
-                    <input placeholder="Email :" type="email" id="email" name="email" class="input">
-                    <!-- <i class="fa-solid fa-envelope"></i> -->
-                    <br>
-                    <input placeholder="Address :" type="text" id="address" name="address" class="input">
-                    <!-- <i class="fa-solid fa-location-dot"></i> -->
-                    <br>
-                    <input placeholder="City :" type="text" id="city" name="city" class="input">
-                    <!-- <i class="fa-solid fa-city"></i> -->
-                    <br>
-                    <input type="text" placeholder="Country :" name="country" id="country">
-                    <!-- <i class="fa-brands fa-canadian-maple-leaf"></i> -->
-                    <input type="number" placeholder="Postal Code :" name="postalCode" id="postalCode">
-                  
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="container">
+          <div class="left-container">
+            <h2>Shipment Address</h2>
+            <form>
+              <input
+                placeholder="Name :"
+                type="text"
+                id="name"
+                name="name"
+                class="input"
+              />
+              <!-- <i class="fa-solid fa-user"></i> -->
+              <br />
+              <input
+                placeholder="Email :"
+                type="email"
+                id="email"
+                name="email"
+                class="input"
+              />
+              <!-- <i class="fa-solid fa-envelope"></i> -->
+              <br />
+              <input
+                placeholder="Address :"
+                type="text"
+                id="address"
+                name="address"
+                class="input"
+              />
+              <!-- <i class="fa-solid fa-location-dot"></i> -->
+              <br />
+              <input
+                placeholder="City :"
+                type="text"
+                id="city"
+                name="city"
+                class="input"
+              />
+              <!-- <i class="fa-solid fa-city"></i> -->
+              <br />
+              <input
+                type="text"
+                placeholder="Country :"
+                name="country"
+                id="country"
+              />
+              <!-- <i class="fa-brands fa-canadian-maple-leaf"></i> -->
+              <input
+                type="number"
+                placeholder="Postal Code :"
+                name="postalCode"
+                id="postalCode"
+              />
+            </form>
+          </div>
 
+          <div class="right-container">
+            <div class="payment-card">
+              <div class="image-container">
+                <img
+                  src="../assets/images/payment/creditCardImage.png"
+                  alt="credit-card"
+                />
+                <h2>Credit card Payment</h2>
 
-                </form>
+                <img
+                  src="../assets/images/payment/creditCardImage2.png"
+                  alt="credit-card"
+                />
               </div>
-    
-              <div class="right-container">
-                <div class="payment-card">
+              <div class="card-number">
+                <label for="card-number">Card Number:</label>
+                <input
+                  placeholder="0000 0000 0000 0000"
+                  type="number"
+                  class="input"
+                  name="card-number"
+                />
+              </div>
 
-                    <div class="image-container">
-                        <img src="../assets/images/payment/creditCardImage.png" alt="credit-card">
-                        <h2>Credit card Payment</h2>
-
-                        <img src="../assets/images/payment/creditCardImage2.png" alt="credit-card">
-                    </div>
-                    <div class="card-number">
-                        <label for="card-number">Card Number:</label>
-                        <input placeholder="0000 0000 0000 0000" type="number" class="input" name="card-number">
-                    </div>
-
-                    <div class="card-group">
-                        <div class="input-group">
-                            <label for="expiry-date">Expiry date:</label>
-                            <input placeholder="00/00" type="text" class="input" name="expiry-date">
-
-                        </div>
-                        <div class="input-group"> 
-                            <label for="cvv">Cvv:</label>
-                            <input type="text" name="cvv" class="input" placeholder="000">
-                        </div>
-                    </div>
+              <div class="card-group">
+                <div class="input-group">
+                  <label for="expiry-date">Expiry date:</label>
+                  <input
+                    placeholder="00/00"
+                    type="text"
+                    class="input"
+                    name="expiry-date"
+                  />
                 </div>
-
-                <div class="Place-Order">
-                    <button id="place-order-button">Place Order</button>
+                <div class="input-group">
+                  <label for="cvv">Cvv:</label>
+                  <input
+                    type="text"
+                    name="cvv"
+                    class="input"
+                    placeholder="000"
+                  />
                 </div>
               </div>
+            </div>
+
+            <div class="Place-Order">
+              <button id="place-order-button">Place Order</button>
+            </div>
           </div>
         </div>
-      
       </div>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <script src="../js/index.js"></script>
-      <!-- <script src="../js/payment-gateway.js"></script> -->
-      <!-- <script  src="../js/cart.js"></script> -->
-</body>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/payment-gateway.js"></script>
+  </body>
 </html>
