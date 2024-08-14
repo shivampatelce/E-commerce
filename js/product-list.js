@@ -1,3 +1,4 @@
+"use strict";
 /** 
 Name: Shivam Patel
 Student Number: 8994760 

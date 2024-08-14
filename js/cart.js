@@ -3,6 +3,8 @@ Name: Shivam Patel
 Student Number: 8994760 
 */
 
+"use strict";
+
 const url = "../util/data.json";
 let PRODUCT_DATA = [];
 let cartItemsDetails = [];

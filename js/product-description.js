@@ -1,3 +1,4 @@
+"use strict";
 // const $ = selector => document.querySelector(selector);
 
 function setProductDetails(product, productArray) {
@@ -10,38 +11,43 @@ function setProductDetails(product, productArray) {
   const actualPrice = product.price - product.discount;
   document.getElementById("actual-price").textContent = `$${actualPrice}`;
   document.getElementById("product-info").textContent = product.description;
+
   const features = product.features[0];
-  document.getElementById("feature-display").textContent = features.display;
-  document.getElementById("feature-battery").textContent = features.battery;
-  document.getElementById("feature-gpu").textContent = features.GPU;
-  document.getElementById("feature-cpu").textContent = features.CPU;
-  document.getElementById("feature-ram").textContent = features.RAM;
-  document.getElementById("feature-storage").textContent = features.storage;
+
+  Object.entries(features).forEach(([key, value]) => {
+    const th = document.createElement("th");
+    th.textContent = key;
+    document.getElementById("features-label").appendChild(th);
+
+    const td = document.createElement("td");
+    td.textContent = value;
+    document.getElementById("feature-value").appendChild(td);
+  });
+
+  // Set related images
+  if (product.relatedImages) {
+    product.relatedImages.forEach((img) => {
+      const relatedImage = document.createElement("div");
+      relatedImage.className = "small-box";
+      relatedImage.innerHTML = `
+        <img
+          src="${img}"
+          class="thumbnail"
+        />`;
+
+      document.querySelector(".related-image").appendChild(relatedImage);
+
+      relatedImage.addEventListener("click", () => {
+        productMainImage.src = img;
+      });
+    });
+  }
 
   // extract element whose id is product-main-image
   let productMainImage = document.getElementById("product-main-image");
 
   // extract element whose class name is thumbnail
   let productSmallImage = document.getElementsByClassName("thumbnail");
-  //when user click on first small image that image will be show in place of main image
-  productSmallImage[0].addEventListener("click", () => {
-    productMainImage.src = productSmallImage[0].src;
-  });
-
-  //when user click on second small image that image will be show in place of main image
-  productSmallImage[1].addEventListener("click", () => {
-    productMainImage.src = productSmallImage[1].src;
-  });
-
-  //when user click on third small image that image will be show in place of main image
-  productSmallImage[2].addEventListener("click", () => {
-    productMainImage.src = productSmallImage[2].src;
-  });
-
-  // //when user click on fourth small image that image will be show in place of main image
-  productSmallImage[3].addEventListener("click", () => {
-    productMainImage.src = productSmallImage[3].src;
-  });
 
   document.getElementById("increment").addEventListener("click", () => {
     let quantity = parseInt(document.getElementById("quantity").value);

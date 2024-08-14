@@ -13,6 +13,10 @@
         "price": 1000,
         "brand": "Acer",
         "rating": 4,
+        "relatedImages": [
+          "../assets/images/laptop/Acer Aspire 3.webp",
+          "../assets/images/laptop/Dell Laptop 15.6 Full HD Display .webp"
+        ],
         "features": [
           {
             "display": "16inch touchscreen",
