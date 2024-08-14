@@ -218,18 +218,9 @@ const displayCart = () => {
 
     $("#empty-cart-msg").addClass("hide");
     $(".order-summary").removeClass("hide");
-
-    if (JSON.parse(localStorage.getItem("hasCoupon")) || false) {
-      $(".discount-container").removeClass("hide");
-      $(".play-quiz-button-container").addClass("hide");
-    } else {
-      $(".play-quiz-button-container").removeClass("hide");
-    }
   } else {
     $("#empty-cart-msg").removeClass("hide");
     $(".order-summary").addClass("hide");
-    $(".discount-container").addClass("hide");
-    $(".play-quiz-button-container").addClass("hide");
   }
 };
 
@@ -434,21 +425,6 @@ $(async () => {
   draggableCartItem();
   calculateOrderSummary();
   setCartBadgeCount();
-
-  // Handle click on discount apply button
-  $(".apply-button").on("click", () => {
-    isAdditionalDiscountApplied = true;
-    $(".discount-container").html("");
-    $(".discount-container").html(`
-      <div>The coupon has been successfully applied!</div>
-      `);
-    calculateOrderSummary();
-  });
-
-  // Redirect to quiz page on click Play quiz button
-  $(".play-quiz-button-container").on("click", () => {
-    window.location.href = "../pages/quiz.html";
-  });
 
   // Search button click
   $("#searchBtn").on("click", () => {
