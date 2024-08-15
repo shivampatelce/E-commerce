@@ -1,5 +1,4 @@
 "use strict";
-// const $ = selector => document.querySelector(selector);
 
 function setProductDetails(product, productArray) {
   document

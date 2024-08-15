@@ -172,7 +172,10 @@ const displayCart = () => {
               : item
           );
           displayCart();
+          draggableWishlistItem();
+          draggableCartItem();
           calculateOrderSummary();
+          setCartBadgeCount();
         });
 
         // Add click event listener for cart item decrement button

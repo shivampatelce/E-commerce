@@ -1,146 +1,168 @@
 .modal {
-    display: block; 
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .modal-content {
-    background-color: #fefefe;
-    margin: 6% auto;
-    padding: 20px;
-    width: 80%;
-    border-radius:26px;
-    background: radial-gradient(#254e9a, #60839f);
-
+  background-color: #fefefe;
+  margin: 6% auto;
+  padding: 20px;
+  width: 55%;
+  border-radius: 26px;
+  background: linear-gradient(#bb0628, #c16969);
 }
 
 .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: rgb(0, 0, 0);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  position: relative;
+  background-color: white;
+  border-radius: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .close:hover,
 .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
-.container{
-    display:flex;
-    justify-content: space-between;
+.container {
+  display: flex;
+  justify-content: space-between;
 }
-.left-container{
-    /* width:50% */
-}
-.right-container{
-    /* width:50% */
-}
-label {
-    display: inline;
-    font-size: 14px;
-    margin-bottom: 5px;
-    padding: 4px;
-}
-input{
-    /* width: 223px; */
-    width: 80%;
-    border-radius: 20px;
-    box-sizing: border-box; 
-    padding: 24px;
 
+input {
+  width: 80%;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 24px;
 }
 .input-group {
-    min-width: 45%; /* Ensure both inputs have enough space */
+  min-width: 45%; /* Ensure both inputs have enough space */
 }
 
 .input-container input {
-    flex-grow: 1;
-    padding-right: 30px; 
+  flex-grow: 1;
+  padding-right: 30px;
 }
 
 .input-container i {
-    margin-left: -25px; 
-    color: #555;
+  margin-left: -25px;
+  color: #555;
 }
-.payment-card{
-    border-radius: 20px;
-    background: white;
-    height: 340px;
-    width: 612px;
-    margin-top: 64px;
-
+.payment-card {
+  border-radius: 10px;
+  background: white;
+  height: fit-content;
+  padding: 10px;
+  width: fit-content;
+  margin-top: 64px;
 }
-/* .card-group {
-    display: flex;
-    justify-content: center;} */
 
 .card-button {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px; 
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .card-button button {
-    width: 80%;
-    padding: 15px;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
-    color: #0056b3;
-    cursor: pointer;
-    font-size: 24px;
-    font-weight: bold;
-    border:1px solid #0056b3
+  width: 80%;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #bb0628;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid #bb0628;
 }
 
 .card-button button:hover {
-    background-color: #0056b3; 
-    color:rgba(255, 255, 255, 0.9);
-    border:1px solid rgba(255, 255, 255, 0.9)
+  background-color: #bb0628;
+  color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.9);
 }
-.image-container img{
-    width:100px;
-    height:100px;
-    
+.image-container img {
+  width: 100px;
+  height: 100px;
 }
-.image-container{
-    display:flex;
-    justify-content: space-between;
-    margin: 4px;
-}
-.card-number {
-    text-align: center;
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px;
 }
 
 .Place-Order {
-    display: flex;
-    justify-content: flex-end; /* Aligns the button to the right */
-    margin-top: 20px;
+  display: flex;
+  justify-content: flex-end; /* Aligns the button to the right */
+  margin-top: 20px;
 }
 
 .Place-Order button {
-    padding: 15px 30px;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
-    color: #0056b3;
-    cursor: pointer;
-    font-size: 24px;
-    font-weight: bold;
-    border: 1px solid #0056b3;
-    position: absolute;
-  
+  padding: 15px 30px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #bb0628;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid #bb0628;
 }
 
 .Place-Order button:hover {
-    background-color: #0056b3; 
-    color: rgba(255, 255, 255, 0.9);
-    border: 1px solid rgba(255, 255, 255, 0.9);
+  background-color: #bb0628;
+  color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+}
+.hidden-container {
+  top: 10%;
+  margin: 6% auto;
+  padding: 20px;
+  width: 80%;
+  display: none;
+  position: absolute;
+  text-align: center;
+  font-size: 3rem;
+  border: solid 3px black;
+}
+
+label {
+  display: inline-block;
+  font-size: 14px;
+  padding: 4px;
+  width: 120px;
+}
+
+.card-number,
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-group {
+  min-width: 45%;
+  margin-bottom: 20px;
+}
+
+#shop-more {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0px;
 }
