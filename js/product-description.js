@@ -48,12 +48,14 @@ function setProductDetails(product, productArray) {
   // extract element whose class name is thumbnail
   let productSmallImage = document.getElementsByClassName("thumbnail");
 
+  // Added event listener on increment button
   document.getElementById("increment").addEventListener("click", () => {
     let quantity = parseInt(document.getElementById("quantity").value);
     document.getElementById("quantity").value = quantity + 1;
     handleQuantityValue(product);
   });
 
+  // Added event listener on decrement button
   document.getElementById("decrement").addEventListener("click", () => {
     let quantity = parseInt(document.getElementById("quantity").value);
     if (quantity >= 1) {
@@ -62,6 +64,7 @@ function setProductDetails(product, productArray) {
     }
   });
 
+  // Added event listener on add to cart button
   document
     .getElementById("add-to-cart-button")
     .addEventListener("click", () => {
@@ -79,6 +82,7 @@ function setProductDetails(product, productArray) {
       window.location.href = "../pages/cart.html";
     });
 
+  // hover effect on product image
   function photo() {
     $("#product-main-image").hover(
       function () {
@@ -102,6 +106,7 @@ function setProductDetails(product, productArray) {
   showSimilarProducts(product, productArray);
 }
 
+// Display similar products
 function showSimilarProducts(product, PRODUCT_DATA) {
   const similarProductsContainer = document.getElementById("similar-products");
   similarProductsContainer.innerHTML = ""; // Clear any existing similar products
@@ -135,6 +140,7 @@ function showSimilarProducts(product, PRODUCT_DATA) {
   }
 }
 
+// Get product name
 function extractProductName(name) {
   const params = new URLSearchParams(window.location.search);
   return params.get(name) || "";
@@ -170,6 +176,7 @@ const handleQuantityValue = (product) => {
   document.getElementById("Total").innerHTML = total.toFixed(2);
 };
 
+// Set cart badge count
 const setCartBadgeCount = () => {
   const cartItems = JSON.parse(localStorage.getItem("cart")) || [];
   $(".cart-badge").text(cartItems.length);
