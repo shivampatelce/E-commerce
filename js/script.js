@@ -14,7 +14,10 @@ $(() => {
   setInterval(showNextSlide, 3000);
   $(".slide").first().addClass("active");
 
+  // this focuses on the searchbar on the page load.
   $("#searchBar").focus();
+
+  // this call the function for updating number in the cart button
   setCartBadgeCount();
 
   // getting the class from html to display dynamically and initializing a array to keep data obtained from JSON file.
@@ -31,7 +34,7 @@ $(() => {
       randomProduct(products);
     });
 
-  // this function searches data in title,description and tags, returns the error message if not found any
+  // this function searches data in title,description and tags, displays the error message if not found any
   $("#searchBtn").on("click", () => {
     const searchedData = $("#searchBar").val().trim().toLowerCase();
     const filteredProducts = products.reduce((acc, product) => {
@@ -51,7 +54,7 @@ $(() => {
     }
   });
 
-  // This function displays the list of products in the html.
+  // This function displays the list of products creating a div called product with anchor tag in it.
   function renderProducts(products) {
     productList.empty();
     $.each(products, (index, product) => {

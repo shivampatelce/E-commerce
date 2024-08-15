@@ -6,3 +6,6 @@
 
 3. Jquery library:
    Source: https://jqueryui.com/
+
+4. Logo:
+   Source: shopperpluscanada.com/
