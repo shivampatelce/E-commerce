@@ -1,0 +1,8 @@
+1. Payment Gateway Page Image:
+   Source: https://www.google.com/search?sca_esv=d621e0682869cae1&rlz=1C1GCEU_enIN1034IN1034&sxsrf=ADLYWIJwchSgDcfx5PzQVJ7VQ86Sd0RP-Q:1723673669193&q=payment+gateway+image+for+credit+card+in+red&udm=2&fbs=AEQNm0BKxFXqFZETuC92mLOmXO9xTuwl7LTqpjEikSHB2sNnAo_Nt6_jBoO5j_EG4ZXs8aQCufxT5WhqKxk_t3EFVMM67rI6i01ADbZ-a5wYaAsalDcO6S1GH-LO2-BpNO0GjKIvvxoXnjjP08V8RmhXnS3ZTYi7mGxclhyNM7kU-cEZojmfYb66zxZupqQ3TpTT-qjAIEt1CwlZuUTZOKSe8wS1nEmI6w&sa=X&ved=2ahUKEwiS9YrmwPWHAxW3nYkEHYDJGV0QtKgLegQIDxAB&biw=1280&bih=593&dpr=1.5#vhid=HIV0um8B90DxfM&vssid=mosaic
+
+2. All other Images, Titles and Description:
+   Source: https://www.amazon.ca/
+
+3. Jquery library:
+   Source: https://jqueryui.com/

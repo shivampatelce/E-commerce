@@ -1,3 +1,6 @@
+/* Name: Taranpreet
+Student Number: 8997098 */
+
 .modal {
   display: block;
   position: fixed;
@@ -45,6 +48,7 @@
 
 input {
   width: 80%;
+  margin: 4px;
   border-radius: 20px;
   box-sizing: border-box;
   padding: 24px;

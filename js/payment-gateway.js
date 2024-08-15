@@ -1,4 +1,9 @@
-// Paymen-gateway.js code [START] done by Taranpreet
+/**
+Name: Taranpreet
+Student Number: 8997098
+*/
+
+"use strict";
 
 // event handle when DOM content load
 document.addEventListener("DOMContentLoaded", function () {
@@ -126,13 +131,13 @@ $(document).ready(function () {
   }
   handleCloseModal();
 
+  // Handle close button click
   $(".close").on("click", () => {
     window.location.href = "../pages/cart.html";
   });
 
+  // Handle shop more button click
   $("#shop-more").on("click", () => {
     window.location.href = "../pages/index.html";
   });
 });
-
-//payment-gateway.js code [END] done by Taranpreet

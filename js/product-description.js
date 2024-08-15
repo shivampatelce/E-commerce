@@ -1,5 +1,11 @@
+/**
+Name: Taranpreet
+Student Number: 8997098
+*/
+
 "use strict";
 
+// Set and display product details
 function setProductDetails(product, productArray) {
   document
     .getElementById("quantity")
@@ -13,6 +19,7 @@ function setProductDetails(product, productArray) {
 
   const features = product.features[0];
 
+  // Add product features table header and data
   Object.entries(features).forEach(([key, value]) => {
     const th = document.createElement("th");
     th.textContent = key;
@@ -44,9 +51,6 @@ function setProductDetails(product, productArray) {
 
   // extract element whose id is product-main-image
   let productMainImage = document.getElementById("product-main-image");
-
-  // extract element whose class name is thumbnail
-  let productSmallImage = document.getElementsByClassName("thumbnail");
 
   // Added event listener on increment button
   document.getElementById("increment").addEventListener("click", () => {
@@ -83,7 +87,7 @@ function setProductDetails(product, productArray) {
     });
 
   // hover effect on product image
-  function photo() {
+  function handleProductImageHover() {
     $("#product-main-image").hover(
       function () {
         $("#product-main-image").css({
@@ -101,7 +105,8 @@ function setProductDetails(product, productArray) {
       }
     );
   }
-  photo();
+
+  handleProductImageHover();
 
   showSimilarProducts(product, productArray);
 }
@@ -117,7 +122,7 @@ function showSimilarProducts(product, PRODUCT_DATA) {
   );
 
   if (category) {
-    // Filter out the current product and select similar products (up to 4)
+    // Filter out the current product and select similar products
     const similarProducts = category.products
       .filter((p) => p.title !== product.title)
       .slice(0, 4);
@@ -140,7 +145,7 @@ function showSimilarProducts(product, PRODUCT_DATA) {
   }
 }
 
-// Get product name
+// Extract product name
 function extractProductName(name) {
   const params = new URLSearchParams(window.location.search);
   return params.get(name) || "";
@@ -165,6 +170,7 @@ const fetchData = async () => {
   }
 };
 
+// Set quantity value
 const handleQuantityValue = (product) => {
   let quantity = document.getElementById("quantity").value;
   let realPrice = product.price - product.discount;
@@ -202,6 +208,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
   }
 
+  // Set item quantity value
   const cartList = JSON.parse(localStorage.getItem("cart")) || [];
   const cartItem = cartList.find((item) => item.title === productName);
   if (cartItem) {
