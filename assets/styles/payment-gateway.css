@@ -120,7 +120,6 @@ input {
   font-weight: bold;
   border: 1px solid #bb0628;
 }
-
 .Place-Order button:hover {
   background-color: #bb0628;
   color: rgba(255, 255, 255, 0.9);

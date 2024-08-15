@@ -102,22 +102,24 @@ input {
 }
 #add-to-cart-button {
   border: none;
-  background-color: #bb0628;
+  background-color: #333;
   color: white;
   padding: 10px 15px;
   margin-top: 10px;
   border-radius: 6px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 #add-to-cart-button:hover {
   border: none;
   background-color: white;
-  color: #bb0628;
+  color: #333;
   padding: 10px 15px;
   margin-top: 10px;
   border-radius: 6px;
-  border: 1px solid #bb0628;
   cursor: pointer;
+  border: 1px solid #333;
 }
 #product-name {
   color: #bb0628;
@@ -224,17 +226,18 @@ input {
 }
 
 .quantity-button-tag {
-  background-color: #f4f4f4;
+  background-color: #333;
   border: none;
   padding: 6px 13px;
   cursor: pointer;
   font-size: 14px;
-  color: black;
+  color: white;
   margin: 2px;
 }
 
 .quantity-button-tag:hover {
-  background-color: #ddd;
+  background-color: white;
+  color: #333;
 }
 
 .quantity-input-tag {
